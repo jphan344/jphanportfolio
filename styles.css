@@ -4,18 +4,27 @@ body {
     flex-direction: column;
     cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1385231/hand-cursor.png"),
     pointer;
-    background-image: url("https://64.media.tumblr.com/c832db43ec967312b3e8c891328ddde3/tumblr_oa9k3fDiiO1tgqd6oo1_540.gifv");
-    background-size:105%;
+    background-image: url("https://i.redd.it/r5aga989h5x41.jpg");
+    background-size: cover;  
     color:white;
+    font-optical-sizing:auto;
+    text-align:center;
+    text-justify: auto;
 }
+
 img{
+    margin: 0;
+    padding: 1rem 0;
+    padding-left:8px;
     position: relative;
     width: 500px;
     transition: .2s;
 }
+
 img:hover{
     transform: scale(2);
 }
+
 .header {
     color:white;
 }
@@ -34,10 +43,8 @@ img:hover{
 
 .navigation {
     color:white;
-    border-top: 0.25rem solid yellow;
-    border-bottom: 0.25rem solid yellow;
-    border-right: 0.1rem solid yellow;
-    border-left: 0.1rem solid rgb(121, 34, 121);
+    border-top: 0.25rem solid white;
+    border-bottom: 0.25rem solid white;
     padding: 0.5rem 0;
     padding-left: 8px;
     word-spacing: 10px;
@@ -47,6 +54,7 @@ img:hover{
     color: white;
     text-decoration: none;
 }
+
 .content {
     margin: 0;
     padding: 1rem 0;
@@ -60,6 +68,7 @@ img:hover{
     padding: 1rem 0;
     margin-top: auto;
 }
+
 .cover {
     display:flex;
     flex-direction: column;
@@ -71,11 +80,15 @@ img:hover{
     height: 100%;
     width: 100%;
     color:white;
-    background-image: url("https://66.media.tumblr.com/6c3eeb35b00d3753da62e36e1ee4b939/tumblr_o7t2l2vsY41s0ebdio1_r1_540.gif");
-    background-size:cover;
-    font-size:x-large;
-
+    background-image: url("https://static.wikia.nocookie.net/371921d6-64de-4743-a7ae-9d97f33adf48");
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    font-optical-sizing:auto;
+    text-align:center;
+    text-justify: auto;
 }
+
 @keyframes fade-out {
     0% {
         opacity: 1;
